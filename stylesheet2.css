@@ -59,6 +59,8 @@ tr:nth-child(even) {
     font-family: Helvetica Neue;
     border-collapse: collapse;
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .card {
@@ -67,6 +69,8 @@ tr:nth-child(even) {
     width: 60%;
     margin-bottom: 50px;
     border-color: peachpuff;
+    display: flex;
+    justify-content: center;
   }
 
   .dogphoto {

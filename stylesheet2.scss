@@ -25,6 +25,7 @@ $font: Helvetica Neue;
 }
 
 table {
+	white-space: nowrap;
 	margin-left: 20px;
 	font-family: $font;
 	border-collapse: collapse;
@@ -61,7 +62,7 @@ tr:nth-child(even) {
 		margin-left: 10px;
 		font-family: $font;
 		border-collapse: collapse;
-		width: 160%;
+		width: 100%;
 	}
 	.card {
 		margin-top: 50px;

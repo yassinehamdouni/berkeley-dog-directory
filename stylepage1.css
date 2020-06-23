@@ -1,0 +1,124 @@
+.subtext {
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  margin-bottom: 2px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#logo {
+  height: 80px;
+  margin-top: 15px;
+  margin-left: 77px;
+  margin-bottom: 5px;
+}
+
+.pageheader {
+  padding-top: 30px;
+  border-top: 1px solid darkred;
+  font-family: Helvetica Neue;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a p {
+  color: black;
+}
+
+.secondaryheader {
+  font-family: Helvetica Neue;
+  font-size: 30px;
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+
+div.photo {
+  border-radius: 10px;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0px 4px 4px #d2cece;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.dogphoto {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+div.photocontainer {
+  padding: 10px 10px;
+}
+
+.dogname {
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 16px;
+  margin-bottom: 10px;
+}
+
+.photocontainer img {
+  height: 30px;
+  width: 30px;
+  transition: 0.2s ease;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.photo:hover .photocontainer img {
+  transform: scale(1.12) translate(4px, 0px);
+}
+
+.photo:hover {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 600px) {
+  #logo {
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+
+  .pageheader {
+    padding-top: 30px;
+    border-top: 1px solid darkred;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  div.photo {
+    border-radius: 10px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0px 4px 4px #d2cece;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 45px;
+  }
+
+  .secondaryheader {
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=stylepage1.css.map */

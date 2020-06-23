@@ -1,0 +1,105 @@
+$font: Helvetica Neue; 
+
+#logo {
+	height: 80px;
+	margin-top: 15px; 
+	margin-left: 77px;
+	margin-bottom: 5px;
+}
+
+.pageheader {
+	padding-top: 50px;
+	border-top: 1px solid darkred;
+	font-family: $font;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.dogphoto {
+	border-radius:10px;
+	height:400px;
+	box-shadow: 0px 4px 4px #d2cece;
+	margin-top:10px;
+	margin-bottom: 50px;
+}
+
+table {
+	margin-left: 20px;
+	font-family: $font;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding-right:40px;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+  	background-color: papayawhip;
+}
+
+.card {
+	margin-left: 77px;
+	width: 50%;
+	margin-bottom: 50px;
+	border-color: peachpuff;
+}
+
+.card-header {
+	background-color: peachpuff;
+	border-color: peachpuff	;
+}
+
+
+
+@media (max-width:980px) {
+	table {
+		margin-left: 10px;
+		font-family: $font;
+		border-collapse: collapse;
+		width: 100%;
+	}
+	.card {
+		margin-top: 50px;
+		margin-left: 95px;
+		width: 60%;
+		margin-bottom: 50px;
+		border-color: peachpuff;
+	}
+
+	.dogphoto {
+		border-radius:10px;
+		height:400px;
+		box-shadow: 0px 4px 4px #d2cece;
+		margin-top:10px;
+		margin-bottom: 50px;
+		margin-left: 25px;
+	}
+
+	#logo {
+		height: 80px;
+		margin-top: 10px; 
+		margin-left: 20px;
+		margin-bottom: 5px;
+	}
+
+	.pageheader {
+		padding-top: 30px;
+		border-top: 1px solid darkred;
+		font-family: $font;
+    	font-size: 26px;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    	display: flex;
+    	justify-content: center;
+	}
+
+	blockquote.p {
+		display: flex;
+		justify-content: center;
+	}
+}
+

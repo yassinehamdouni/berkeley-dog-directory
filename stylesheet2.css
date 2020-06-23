@@ -26,7 +26,7 @@ table {
   margin-left: 20px;
   font-family: Helvetica Neue;
   border-collapse: collapse;
-  width: 200%;
+  width: 100%;
 }
 
 th, td {
@@ -57,7 +57,7 @@ tr:nth-child(even) {
     margin-left: 10px;
     font-family: Helvetica Neue;
     border-collapse: collapse;
-    width: 160%;
+    width: 200%;
   }
 
   .card {

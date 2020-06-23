@@ -53,10 +53,10 @@ tr:nth-child(even) {
 
 @media (max-width: 980px) {
   table {
-    margin-left: 0px;
+    margin-left: 10px;
     font-family: Helvetica Neue;
     border-collapse: collapse;
-    width: 90%;
+    width: 100%;
   }
 
   .card {
@@ -73,7 +73,7 @@ tr:nth-child(even) {
     box-shadow: 0px 4px 4px #d2cece;
     margin-top: 10px;
     margin-bottom: 50px;
-    margin-left: 0px;
+    margin-left: 150px;
   }
 
   #logo {

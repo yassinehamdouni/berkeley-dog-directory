@@ -33,6 +33,7 @@ th, td {
   text-align: left;
   padding-right: 40px;
   padding: 15px;
+  white-space: nowrap;
 }
 
 tr:nth-child(even) {

@@ -69,8 +69,6 @@ tr:nth-child(even) {
     width: 60%;
     margin-bottom: 50px;
     border-color: peachpuff;
-    display: flex;
-    justify-content: center;
   }
 
   .dogphoto {
@@ -80,8 +78,6 @@ tr:nth-child(even) {
     margin-top: 10px;
     margin-bottom: 50px;
     margin-left: 150px;
-    display: flex;
-    justify-content: center;
   }
 
   #logo {
